@@ -1,0 +1,6 @@
+pingwin = int(input())
+print('   _~_    ' * pingwin)
+print('  (o o)   ' * pingwin)
+print(' /  V  \\  ' * pingwin)
+print('/(  _  )\\ ' * pingwin)
+print('  ^^ ^^   ' * pingwin)
