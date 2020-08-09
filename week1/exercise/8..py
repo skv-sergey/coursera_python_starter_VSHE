@@ -1,2 +1,2 @@
-# n = int(input())
-print(173 % 100)
+n = int(input())
+print((n // 10) % 10)
