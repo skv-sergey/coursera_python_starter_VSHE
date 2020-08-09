@@ -1,3 +1,2 @@
-a = int(input())
-b = int(input())
-print(a + b)
+n = 1
+print(1 - n)
