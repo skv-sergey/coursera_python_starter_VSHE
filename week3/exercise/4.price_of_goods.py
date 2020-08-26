@@ -1,6 +1,6 @@
 
 n = float(input())
 roubles = int(n)
-copeck = (n - int(n)) * 100
+copeck = round((n - int(n)) * 100)
 
-print(roubles, )
+print(roubles, copeck)
