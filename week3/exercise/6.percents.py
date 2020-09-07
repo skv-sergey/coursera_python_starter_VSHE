@@ -1,7 +1,5 @@
 p, x, y = int(input()), int(input()), int(input())
-deposit = x + (y / 100)
-newDeposit = deposit * (p / 100 + 1)
+deposit = x * 100 + y
+total = deposit * (p / 100) + deposit
 
-roubles = int(newDeposit)
-copeck = round((newDeposit - int(newDeposit)) * 100)
-print(roubles, copeck)
+print(int(total // 100), int(total % 100))
